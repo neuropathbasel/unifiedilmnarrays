@@ -35,9 +35,9 @@ https://support.illumina.com/array/array_kits/infinium-methylationepic-beadchip-
 library(devtools)
 library(minfi)
 
-bn1 <- "/applications/epidip_demo_data/data/demo_idat/3998523002_R03C02" # 450k
-bn2 <- "/applications/epidip_demo_data/data/demo_idat/201465930047_R03C01" # EPIC v1
-bn3 <- "/applications/epidip_demo_data/data/demo_idat/206909630108_R04C01" # EPIC v2
+bn1 <- "/.../idat/3998523002_R03C02" # 450k
+bn2 <- "/.../idat/201465930047_R03C01" # EPIC v1
+bn3 <- "/.../idat/206909630108_R04C01" # EPIC v2
 
 bn <- c(bn1,bn2,bn3)
 
